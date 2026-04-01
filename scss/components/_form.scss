@@ -1,0 +1,372 @@
+
+
+
+// /* FORM CONTENEDOR */
+// .contact__form {
+//   display: flex;
+//   justify-content: center;
+
+// }
+
+// .form {
+//   width: 100%;
+//   max-width: 420px;
+//   padding: 2rem;
+//   border-radius: 14px;
+
+//   background: rgba(0, 0, 0, 0.6);
+//   backdrop-filter: blur(12px);
+
+//   border: 1px solid rgba(255,255,255,0.1);
+
+//   transition: all 0.3s ease;
+// }
+
+// .form:hover {
+//   transform: translateY(-5px);
+//   box-shadow: 0 0 10px rgb(60, 59, 59);
+// }
+
+
+
+// .form {
+//   width: 100%;
+//   max-width: 500px;
+//   padding: 2rem;
+//   border-radius: 12px;
+//   background: rgba(0, 0, 0, 0.6);
+//   backdrop-filter: blur(8px);
+//   color: #fff;
+ 
+// }
+
+// /* GRUPOS */
+// .form__group {
+//   margin-bottom: 1.5rem;
+//   display: flex;
+//   flex-direction: column;
+//    align-items: start;
+// }
+
+
+// /* LABELS */
+// .form__label {
+//   font-size: 0.9rem;
+//   margin-bottom: 0.4rem;
+//   color: #ccc;
+// }
+
+// /* INPUTS */
+// .form__input {
+//   width: 100%;
+//   padding: 0.8rem 1rem;
+//   border-radius: 8px;
+//   border: 1px solid #444;
+//   background: transparent;
+//   color: #fff;
+//   transition: 0.3s;
+// }
+
+// .form__input::placeholder {
+//   color: #888;
+// }
+
+// .form__input:focus {
+//   border-color: #ff0000;
+//   box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+// }
+
+// /* TITULOS (Genero, Objetivos, etc) */
+// .form__title {
+//   font-size: 1rem;
+//   margin-bottom: 0.5rem;
+//   color: #fff;
+//   margin: 0 auto;
+// }
+
+// /* SELECT */
+// .form__select {
+//   width: 100%;
+//   padding: 0.8rem;
+//   border-radius: 8px;
+//   background: #111;
+//   color: #fff;
+//   border: 1px solid #444;
+//   transition: all 0.3s ease;
+// }
+// .form__select:hover{
+// background-color: #ff0000;
+// color: #111;
+
+// }
+
+// .form__select:focus {
+//   border-color: #ff0000;
+// }
+
+// /* CHECKBOX Y RADIO (base) */
+// .form__checkbox,
+// .form__radio {
+//   margin-right: 0.4rem;
+//   accent-color: #ff0000;
+//   cursor: pointer;
+//   justify-content: center;
+// }
+
+// /* OPCIONES */
+// .form__option-label {
+//   margin-right: 1rem;
+//   cursor: pointer;
+//   color: #ddd;
+//   font-size: 0.9rem;
+// }
+
+// /* TEXTAREA */
+// .form__textarea {
+//   width: 100%;
+//   min-height: 100px;
+//   padding: 1rem;
+//   border-radius: 8px;
+//   border: 1px solid #444;
+//   background: transparent;
+//   color: #fff;
+//   resize: none;
+//   transition: 0.3s;
+// }
+
+// .form__textarea:focus {
+//   border-color:#ff0000;
+//   box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+
+
+
+
+
+
+/* FORM CONTENEDOR */
+// .contact__form {
+//   display: flex;
+//   justify-content: center;
+
+// }
+
+// .form {
+//   width: 100%;
+//   max-width: 420px;
+//   padding: 2rem;
+//   border-radius: 14px;
+
+//   background: rgba(0, 0, 0, 0.6);
+//   backdrop-filter: blur(12px);
+
+//   border: 1px solid rgba(255,255,255,0.1);
+
+//   transition: all 0.3s ease;
+// }
+
+// .form:hover {
+//   transform: translateY(-5px);
+//   box-shadow: 0 0 10px rgb(60, 59, 59);
+// }
+
+
+
+// .form {
+//   width: 100%;
+//   max-width: 500px;
+//   padding: 2rem;
+//   border-radius: 12px;
+//   background: rgba(0, 0, 0, 0.6);
+//   backdrop-filter: blur(8px);
+//   color: #fff;
+ 
+// }
+
+// /* GRUPOS */
+// .form__group {
+//   margin-bottom: 1.5rem;
+//   display: flex;
+//   flex-direction: column;
+//    align-items: start;
+// }
+
+
+// /* LABELS */
+// .form__label {
+//   font-size: 0.9rem;
+//   margin-bottom: 0.4rem;
+//   color: #ccc;
+// }
+
+// /* INPUTS */
+// .form__input {
+//   width: 100%;
+//   padding: 0.8rem 1rem;
+//   border-radius: 8px;
+//   border: 1px solid #444;
+//   background: transparent;
+//   color: #fff;
+//   transition: 0.3s;
+// }
+
+// .form__input::placeholder {
+//   color: #888;
+// }
+
+// .form__input:focus {
+//   border-color: #ff0000;
+//   box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+// }
+
+// /* TITULOS (Genero, Objetivos, etc) */
+// .form__title {
+//   font-size: 1rem;
+//   margin-bottom: 0.5rem;
+//   color: #fff;
+//   margin: 0 auto;
+// }
+
+// /* SELECT */
+// .form__select {
+//   width: 100%;
+//   padding: 0.8rem;
+//   border-radius: 8px;
+//   background: #111;
+//   color: #fff;
+//   border: 1px solid #444;
+//   transition: all 0.3s ease;
+// }
+// .form__select:hover{
+// background-color: #ff0000;
+// color: #111;
+
+// }
+
+// .form__select:focus {
+//   border-color: #ff0000;
+// }
+
+// /* CHECKBOX Y RADIO (base) */
+// .form__checkbox,
+// .form__radio {
+//   margin-right: 0.4rem;
+//   accent-color: #ff0000;
+//   cursor: pointer;
+//   justify-content: center;
+// }
+
+// /* OPCIONES */
+// .form__option-label {
+//   margin-right: 1rem;
+//   cursor: pointer;
+//   color: #ddd;
+//   font-size: 0.9rem;
+// }
+
+// /* TEXTAREA */
+// .form__textarea {
+//   width: 100%;
+//   min-height: 100px;
+//   padding: 1rem;
+//   border-radius: 8px;
+//   border: 1px solid #444;
+//   background: transparent;
+//   color: #fff;
+//   resize: none;
+//   transition: 0.3s;
+// }
+
+// .form__textarea:focus {
+//   border-color:#ff0000;
+//   box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+// }
+
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+
+  &__group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  &__title {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  &__input,
+  &__select,
+  &__textarea {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: transparent;
+    color: #fff;
+    outline: none;
+    margin: 0 auto;
+
+    &:focus {
+      border-color: #e11d48;
+      box-shadow: 0 0 10px rgba(225, 29, 72, 0.4);
+    }
+  }
+
+  &__textarea {
+    min-height: 120px;
+    resize: none;
+  }
+
+¿//checkbox 
+  &__options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      text-align: center;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    max-width: 350px;
+    padding: 14px;
+    border-radius: 8px;
+    background-color: #e11d48;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 0 auto;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(225, 29, 72, 0.4);
+    }
+  }
+}
+
+

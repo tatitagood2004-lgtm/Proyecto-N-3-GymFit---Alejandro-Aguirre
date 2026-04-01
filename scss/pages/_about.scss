@@ -1,0 +1,221 @@
+@use "../base/mixins" as *;
+@use "../base/variables" as *;
+
+.about {
+  padding: 5rem 2rem;
+  text-align: center;
+
+  &__container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    letter-spacing: 1px;
+    color: #f1f5f9;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow:0 0 10px gray ;
+  }
+
+  &__text {
+    color: #bbb;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+}
+
+//Historia
+.about__history {
+  padding: 5rem 2rem;
+  background-color: #111;
+  text-align: center;
+
+  &-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &-title {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  &-text {
+    color: #bbb;
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+}
+.about__history-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #e63946;
+  margin: 10px auto 0;
+}
+
+//Seccion visual
+.about-cards__card {
+  @include card;
+  // box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  }
+}
+
+.about-cards {
+  padding: 5rem 2rem;
+
+  &__container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+
+  &__card {
+    width: 30%;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+
+    img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin: 1rem;
+      padding: 5px 5px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      margin: 0 1rem 1.5rem;
+      color: #aaa;
+      padding: 5px;
+    }
+  }
+}
+
+// values
+
+.about__values {
+  padding: 5rem 2rem;
+  text-align: center;
+
+  &-title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    padding: 0;
+  }
+
+  &-item {
+    @include card;
+    // background: #111;
+    padding: 2rem;
+    // border-radius: 12px;
+    // transition: all 0.3s ease;
+    // box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    // list-style: none;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+  }
+}
+
+//Equipo
+
+
+.team {
+  padding: 5rem 2rem;
+  text-align: center;
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  &__container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    background: #111;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 500px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  &__name {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  &__description {
+    font-size: 0.9rem;
+    color: #aaa;
+    padding: 0 1rem 1.5rem;
+  }
+}
+
+//cta
+
+.cta {
+  padding: 6rem 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #000, #111);
+
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1rem;
+    color: #aaa;
+    margin-bottom: 2rem;
+  }
+}
+

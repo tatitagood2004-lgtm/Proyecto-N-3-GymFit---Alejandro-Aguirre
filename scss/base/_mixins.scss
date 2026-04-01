@@ -1,0 +1,9 @@
+@use "variables" as *;
+
+@mixin card {
+  background: $dark;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  list-style: none;
+}
+
